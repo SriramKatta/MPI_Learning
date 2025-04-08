@@ -1,0 +1,6 @@
+build
+EXE
+
+*.txt
+
+!CMakeLists.txt

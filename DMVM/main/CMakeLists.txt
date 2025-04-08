@@ -1,4 +1,4 @@
 add_executable(dmvm main.c)
-target_link_libraries(dmvm PRIVATE dmvm_lib)
-target_link_libraries(dmvm PRIVATE MPI::MPI_C)
-target_compile_definitions(dmvm PRIVATE ARRAY_ALIGNMENT=64)
+target_link_libraries(dmvm PUBLIC dmvm_lib)
+target_link_libraries(dmvm PUBLIC MPI::MPI_C)
+target_compile_definitions(dmvm PUBLIC ARRAY_ALIGNMENT=64)

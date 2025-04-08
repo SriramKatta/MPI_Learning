@@ -1,6 +1,8 @@
 build
 EXE
 
+.vscode
+
 *.txt
 
 !CMakeLists.txt
